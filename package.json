@@ -1,22 +1,29 @@
 {
-  "name": "portfolio",
-  "version": "1.0.0",
-  "description": "my portfolio",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/gabhu-dev/Portfolio.git"
-  },
-  "keywords": [
-    "javaScript"
-  ],
-  "author": "gabriela ignacio",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/gabhu-dev/Portfolio/issues"
-  },
-  "homepage": "https://github.com/gabhu-dev/Portfolio#readme"
+    "name": "portfolio",
+    "version": "1.0.0",
+    "description": "projects porfolio",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "htmlhint": "htmlhint dist/*.html "
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/gabhu-dev/Portfolio.git"
+    },
+    "keywords": [
+        "javaScript"
+    ],
+    "author": "gabriela ignacio",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/gabhu-dev/Portfolio/issues"
+    },
+    "homepage": "https://github.com/gabhu-dev/Portfolio#readme",
+    "devDependencies": {
+        "eslint": "^6.5.1",
+        "eslint-config-airbnb-base": "^14.0.0",
+        "eslint-plugin-import": "^2.18.2",
+        "htmlhint": "^0.11.0"
+    }
 }
