@@ -77,7 +77,7 @@
         });
 
         $('.mu-wordpress-bar').LineProgressbar({
-            percentage: 70,
+            percentage: 80,
             triggerOnce: true
         });
 
